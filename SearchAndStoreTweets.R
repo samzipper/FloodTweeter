@@ -4,9 +4,6 @@
 #'  (2) download all matching Tweets
 #'  (3) save the output to a SQLite database
 
-# path to git directory - change this to wherever you have your git repository
-git.dir <- "C:/Users/Sam/WorkGits/FloodTweeter/"
-
 # load packages
 library(rtweet)
 library(lubridate)

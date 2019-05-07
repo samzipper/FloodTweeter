@@ -27,7 +27,7 @@ twitter_token <- create_token(
 
 # output directory: save to Dropbox, not git repository, so it's automatically backed up
 # this is also where authentication info is stored
-out.dir <- "C:/Users/gsas/OneDrive - The University of Kansas/Research/Twitter/FloodTweeter/"
+out.dir <- "C:/Users/Sam/OneDrive - The University of Kansas/Research/Twitter/FloodTweeter/"
 
 ## combine with name for token
 file_name <- file.path(out.dir, "twitter_token.Rds")
